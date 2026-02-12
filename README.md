@@ -49,23 +49,6 @@ A secure and responsive To-Do List web application built with PHP, MySQL, Bootst
 
 ---
 
-## 📋 Project Structure
-
-todo-web/
-├── index.php # Main application file
-├── db.php # Database configuration and setup
-├── static/
-│ ├── css/
-│ │ └── style.css # Custom styles
-│ ├── js/
-│ │ └── script.js # Client-side JavaScript
-│ └── bootstrap/ # Bootstrap files
-│ ├── css/
-│ └── js/
-└── README.md 
-
----
-
 ## 🚀 Setup Instructions
 
 ### Prerequisites
@@ -85,14 +68,23 @@ cd todo-web
 
 
 ### Step 2: Set Up the Database
+
 Option A: Automatic Setup (Recommended)
+
 Start XAMPP/WAMP
+
 Open your browser and go to http://localhost/phpmyadmin
+
 The db.php file will automatically create:
+
 Database: todo_db
+
 Table: users
+
 Table: tasks
+
 Option B: Manual Setup
+
 
 ```
 CREATE DATABASE todo_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -118,8 +110,9 @@ CREATE TABLE tasks (
 ```
 
 ### Step 3: Configure Database Connection
-Edit db.php with your database credentials:
 
+Edit db.php with your database credentials:
+```
 <?php
 $servername = "localhost";
 $username = "username";         // Your MySQL username
@@ -128,14 +121,19 @@ $dbname = "todo_db";
 
 // ... rest of the file
 ?>
+```
+### Step 4: Run the Application
 
-Step 4: Run the Application
 Copy the todo-web folder to your web server directory:
+
 XAMPP: C:\xampp\htdocs\todo-web
+
 WAMP: C:\wamp64\www\todo-web
+
 MAMP: /Applications/MAMP/htdocs/todo-web
+
 Open your browser and navigate to:
 
 http://localhost/todo-web/
 
-Create an account and start managing your tasks! 🎉
+Create an account and start managing your tasks! 
