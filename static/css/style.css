@@ -1,1 +1,65 @@
+form.form-container,
+div.form-container {
+  display: none !important;
+  max-width: 500px;
+  margin: 0 auto;
+}
+form.form-container.active,
+div.form-container.active {
+  display: block !important;
+}
 
+#home-content {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+.form-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.auth-switch-buttons {
+  margin-bottom: 15px;
+}
+.auth-switch-buttons button {
+  margin-right: 10px;
+}
+
+.badge-sm {
+  font-size: 0.65em;
+  padding: 0.2em 0.5em;
+}
+
+.border-start.border-3 {
+  border-left-width: 3px !important;
+}
+
+.card-title {
+  font-size: 0.95rem;
+}
+
+.card-text {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.btn-group-sm .btn {
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-outline-primary,
+.btn-outline-danger {
+  border-width: 1px;
+}
+
+.task-card {
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
