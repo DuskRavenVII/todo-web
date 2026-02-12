@@ -81,10 +81,11 @@ todo-web/
 ### Step 1: Clone the Repository
 
 git clone https://github.com/DuskRavenVII/todo-web.git
+
 cd todo-web
 
 
-Step 2: Set Up the Database
+### Step 2: Set Up the Database
 Option A: Automatic Setup (Recommended)
 Start XAMPP/WAMP
 Open your browser and go to http://localhost/phpmyadmin
@@ -117,7 +118,7 @@ CREATE TABLE tasks (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
-Step 3: Configure Database Connection
+### Step 3: Configure Database Connection
 Edit db.php with your database credentials:
 
 <?php
