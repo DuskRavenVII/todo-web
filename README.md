@@ -80,7 +80,6 @@ todo-web/
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/DuskRavenVII/todo-web.git
 cd todo-web
 
@@ -119,7 +118,7 @@ CREATE TABLE tasks (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
+
 
 Step 3: Configure Database Connection
 Edit db.php with your database credentials:
