@@ -62,8 +62,7 @@ todo-web/
 │ └── bootstrap/ # Bootstrap files
 │ ├── css/
 │ └── js/
-├── .gitignore # Git ignore file
-└── README.md # This file
+└── README.md 
 
 ---
 
